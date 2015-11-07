@@ -4,10 +4,6 @@
         background-position: right center;
     }
     
-    .headerName {
-        font-size: 30px;
-    }
-    
     .infoHeader {
         font-size: 20px;
     }
@@ -122,6 +118,14 @@ header {
 .headerName {
     font-size: 45px;
     float: none;
+}
+
+@media (max-width: @screen-xs) {
+    .headerName{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    .headerName{font-size: 14px;}
 }
 
 .infoHeader {
