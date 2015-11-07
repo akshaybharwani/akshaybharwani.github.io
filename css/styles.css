@@ -8,6 +8,10 @@
         font-size: 20px;
     }
     
+    .workBox {
+        width: 200px;
+    }
+    
 }
 
 .navbar-default {
