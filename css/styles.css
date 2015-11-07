@@ -195,7 +195,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 
 .workRow {
-    margin: 0 px;
+    margin: 0 auto;
 }
 
 .placeholderText {
@@ -235,6 +235,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
     font-weight: 400;
     display: table;
     table-layout: fixed;
+    margin-left: -10px;
 }
 
 .akshayInfo p {
