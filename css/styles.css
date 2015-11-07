@@ -145,6 +145,7 @@ header {
 
 .mainWrapper {
     width: 100%;
+    margin: 0 auto;
 }
 
 .other {
@@ -209,7 +210,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 
 .workRow {
-    margin: 65px 40px 0px 0px;
+    margin: 0 auto;
 }
 
 .placeholderText {
@@ -238,7 +239,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 
 .aboutRow {
-    margin: 65px 40px 0px 0px;
+    margin: 0 auto;
 }
 .aboutBox {
     text-align: center;
