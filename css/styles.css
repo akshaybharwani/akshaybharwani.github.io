@@ -4,14 +4,10 @@
         background-position: right center;
     }
     
-    .infoHeader {
-        font-size: 20px;
+    .aboutRow {
+        margin-top: -20px;
     }
-    
-    .workBox {
-        width: 200px;
-    }
-    
+
 }
 
 .navbar-default {
@@ -20,6 +16,7 @@
     font-size: 20px;
     color: #1F2A44;
     z-index: 9999;
+    width: 100%;
 }
 
 .nav.navbar-nav.navbar-right li a,
@@ -85,12 +82,15 @@
   transform: rotate(0);
 }
 
-body {
+body, html {
     font-family: Arciform;
     height: 100%;
     width: 100%;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
+}
+
+html {
     overflow-x: hidden;
 }
 
@@ -98,13 +98,6 @@ body {
     background: rgba(255,255,255,0.7);
 }
 
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
 
 .navbar-brand {
     font-size: 30px;
@@ -129,14 +122,6 @@ header {
 .headerName {
     font-size: 45px;
     float: none;
-}
-
-@media (max-width: @screen-xs) {
-    .headerName{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    .headerName{font-size: 14px;}
 }
 
 .infoHeader {
@@ -210,7 +195,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 
 .workRow {
-    margin: 0 auto;
+    margin: 0 px;
 }
 
 .placeholderText {
@@ -243,7 +228,6 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 .aboutBox {
     text-align: center;
-    margin: 0 auto;
     width: 350px;
     height: 300px;
     font-size: 25px;
