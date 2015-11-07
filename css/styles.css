@@ -120,12 +120,12 @@ header {
 }
 
 .headerName {
-    font-size: 45px;
+    font-size: 3em;
     float: none;
 }
 
 .infoHeader {
-    font-size: 25px;
+    font-size: 1.7em;
 }
 
 .mainWrapper {
