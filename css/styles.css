@@ -4,10 +4,14 @@
         background-position: right center;
     }
     
-    .aboutRow {
-        margin-top: -20px;
+    .headerName {
+        font-size: 30px;
     }
-
+    
+    .infoHeader {
+        font-size: 20px;
+    }
+    
 }
 
 .navbar-default {
