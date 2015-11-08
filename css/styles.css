@@ -139,6 +139,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 
 #about {
     background-color: rgba(1, 177, 174, 1);
+    width: 100%;
 }
 
 #contact {
@@ -192,9 +193,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 .workRow {
     width: 790px;
     text-align: center;
-    margin: 0 auto;
-    display: block;
-    position: relative;
+    margin: 20px auto;
 }
     
 .placeholderText {
@@ -223,7 +222,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 
 .aboutRow {
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .aboutBox {
     text-align: center;
@@ -231,10 +230,6 @@ src: url("../fonts/Arciform.otf") format("opentype");
     font-family: sans-serif;
     font-weight: 400;
     width: 375px;
-    margin-left: 20px;
-    margin-top: 10px;
-    position: relative;
-    display: block;
 }
 
 .akshayInfo p {
@@ -258,7 +253,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 .form-cover{
 	width:70%;
 	margin:20px auto;
-	text-align:center;
+	text-align: center;
 }
 .input-xlarge{
 	width:100%;
@@ -331,11 +326,12 @@ src: url("../fonts/Arciform.otf") format("opentype");
     
     .aboutBox {
         width: 320px;
+        margin-left: -10px;
     }
     
     .item {
-        margin-left: 20px;
         width: 320px;
+        margin-left: -10px;
     }
     
     .form-cover {
