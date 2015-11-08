@@ -319,19 +319,23 @@ src: url("../fonts/Arciform.otf") format("opentype");
     text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 640px){
     header {
         background-size: 100% auto;
         background-position: right center;
     }
     
     .workRow {
-        width: 360px;
+        width: 350px;
+    }
+    
+    .aboutBox {
+        width: 320px;
     }
     
     .item {
         margin-left: 20px;
-        width: 300px;
+        width: 320px;
     }
     
     .form-cover {
