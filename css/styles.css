@@ -7,6 +7,19 @@
     .aboutRow {
         margin-top: -20px;
     }
+    
+    .aboutBox {
+        margin-left: -10px;
+    }
+    
+    .item {
+        margin-left: 20px;
+        width: 100%;
+    }
+    
+    .form-cover {
+        width: 100%;
+    }
 
 }
 
@@ -100,7 +113,7 @@ html {
 
 
 .navbar-brand {
-    font-size: 30px;
+    font-size: 1.5em;
     color: #1F2A44;
 }
 
@@ -184,20 +197,28 @@ src: url("../fonts/Arciform.otf") format("opentype");
     color: black;
 }
 
-.workBox {
-    width: 350px;
-    height: 300px;
-    margin: 0 auto;
+#work {
+    overflow-y: visible;
 }
+
+
+.item {
+    width: 375px;
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
 
 .col-xs-12 {
     margin: 10px 0px 10px 0px;
 }
 
 .workRow {
-    margin: 0 auto;
+    width: 790px;
+    text-align: center;
 }
-
+    
 .placeholderText {
     text-align: center;
     margin-top: 10px;
@@ -228,18 +249,19 @@ src: url("../fonts/Arciform.otf") format("opentype");
 }
 .aboutBox {
     text-align: center;
-    width: 350px;
-    height: 300px;
-    font-size: 25px;
+    font-size: 1.9em;
     font-family: sans-serif;
     font-weight: 400;
-    display: table;
-    table-layout: fixed;
-    margin-left: -10px;
+    width: 375px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    display: block;
 }
 
 .akshayInfo p {
-    display: table-cell;
+    display: block;
+    position: relative;
     vertical-align: middle;
 }
 
@@ -261,7 +283,7 @@ src: url("../fonts/Arciform.otf") format("opentype");
 	text-align:center;
 }
 .input-xlarge{
-	width:98%;
+	width:100%;
 	padding:20px 10px;
 	margin-top:20px;
 	font-size:24px;
@@ -275,19 +297,19 @@ src: url("../fonts/Arciform.otf") format("opentype");
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #1F2A44;
-    font-size: 20px;
+    font-size: 1em;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color:    #1F2A44;
-    font-size: 20px;
+    font-size: 1em;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color:    #1F2A44;
-    font-size: 20px;
+    font-size: 1em;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #1F2A44;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .btn.btn-large {
