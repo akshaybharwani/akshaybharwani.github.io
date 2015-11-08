@@ -326,12 +326,10 @@ src: url("../fonts/Arciform.otf") format("opentype");
     
     .aboutBox {
         width: 320px;
-        margin-left: -5px;
     }
     
     .item {
         width: 320px;
-        margin-left: -5px;
     }
     
     .form-cover {
