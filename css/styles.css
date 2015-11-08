@@ -1,28 +1,3 @@
-@media (max-width: 768px){
-    header {
-        background-size: 100% auto;
-        background-position: right center;
-    }
-    
-    .aboutRow {
-        margin-top: -20px;
-    }
-    
-    .aboutBox {
-        margin-left: -10px;
-    }
-    
-    .item {
-        margin-left: 20px;
-        width: 100%;
-    }
-    
-    .form-cover {
-        width: 100%;
-    }
-
-}
-
 .navbar-default {
     background: transparent;
     border: none;
@@ -217,6 +192,9 @@ src: url("../fonts/Arciform.otf") format("opentype");
 .workRow {
     width: 790px;
     text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
 }
     
 .placeholderText {
@@ -339,4 +317,25 @@ src: url("../fonts/Arciform.otf") format("opentype");
 .madeBy {
     padding: 5px;
     text-align: center;
+}
+
+@media (max-width: 768px){
+    header {
+        background-size: 100% auto;
+        background-position: right center;
+    }
+    
+    .workRow {
+        width: 360px;
+    }
+    
+    .item {
+        margin-left: 20px;
+        width: 300px;
+    }
+    
+    .form-cover {
+        width: 100%;
+    }
+
 }
