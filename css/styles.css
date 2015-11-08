@@ -221,27 +221,6 @@ src: url("../fonts/Arciform.otf") format("opentype");
     color: white;
 }
 
-.aboutRow {
-    margin: 20px auto;
-}
-.aboutBox {
-    text-align: center;
-    font-size: 1.9em;
-    font-family: sans-serif;
-    font-weight: 400;
-    width: 375px;
-}
-
-.akshayInfo p {
-    display: block;
-    position: relative;
-    vertical-align: middle;
-}
-
-.akshayInfo > p > a {
-    color: #1F2A44;
-}
-
 .category {
     font-style: normal;
     font-size: 28px;
@@ -313,6 +292,46 @@ src: url("../fonts/Arciform.otf") format("opentype");
     padding: 5px;
     text-align: center;
 }
+
+/* Center align the text within the three columns below the carousel */
+
+.about {
+    margin-top: 40px;
+}
+.about .col-lg-4 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.about .category {
+  font-weight: normal;
+}
+.about .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.9em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.about {
+    margin-top: 40px;
+}
+.about .col-lg-6 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.about .category {
+  font-weight: normal;
+}
+.about .col-lg-6 p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.9em;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
 
 @media (max-width: 640px){
     header {
