@@ -177,12 +177,12 @@ src: url("../fonts/Arciform.otf") format("opentype");
     overflow-y: visible;
 }
 
-
 .item {
     width: 375px;
     margin-top: 10px;
     position: relative;
     display: block;
+	border: 2px solid #1F2A44;
 }
 
 
